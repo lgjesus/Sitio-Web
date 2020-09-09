@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta name="viewport" content="width-device-width, initial-scare=1">
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+    <script type="text/javascript" src="script.js"></script>
+    <title>Galería</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm">
+            <ul class="navbar-nav header-tabs">
+                <li class="nav-item" id="navi"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item" id="navi"><a class="nav-link" href="galeria.html">Galería</a></li>
+                <li class="nav-item" id="navi"><a class="nav-link" href="biografia.html">Biografía</a></li>
+                <li class="nav-item" id="navi"><a class="nav-link" href="juegos.html">Juegos</a></li>
+                <li class="nav-item" id="navi"><a class="nav-link" href="suscribirse.html">Suscribirse</a></li>
+                <li class="nav-item" id="navi"><a class="nav-link" href="https://www.bellasartes.gob.ar/">Museo de
+                        Bellas Artes</a></li>
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+                    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+                    crossorigin="anonymous">
+                <link rel="stylesheet" href="estilos.css">
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div style="text-align:center">
+        <h2>Galería</h2>
+    </div>
+    <section>
+        <div class="row">
+            <div class="col-2">
+                <img src="imagenes/galeria/pic1.jpg"
+                    alt="Desembarco del Ejército Argentino frente a las trincheras de Curuzú, el 12 de septiembre de 1866, de Cándido López. 1891. Museo Nacional de Bellas Artes."
+                    title="pic1" width="100%" onclick="myFunction(this);" />
+                <p>
+                    Desembarco 1891
+                </p>
+            </div>
+            <div class="col-2">
+                <img src="imagenes/galeria/pic2.jpg"
+                    alt="Después de la Batalla de Curupaytí, de Cándido López. 1893. Museo Nacional de Bellas Artes"
+                    title="pic2" width="100%" onclick="myFunction(this);" />
+                <p>
+                    Curupaytí 1893
+                </p>
+            </div>
+            <div class="col-2">
+                <img src="imagenes/galeria/pic3.jpg"
+                    alt="Asalto de la 1ra columna brasileña a Curupaytí (al mando de Cnel. Augusto Fco. Caldas), de Cándido López. 1897. Museo Nacional de Bellas Artes"
+                    title="pic3" width="100%" onclick="myFunction(this);" />
+                <p>
+                    Curupaytí 1897
+                </p>
+            </div>
+            <div class="col-2">
+                <img src="imagenes/galeria/pic4.jpg"
+                    alt="Asalto de la 2da columna brasileña a Curupaytí, de Cándido López. 1894. Museo Nacional de Bellas Artes"
+                    title="pic4" width="100%" onclick="myFunction(this);" />
+                <p>
+                    Curupaytí 1894
+                </p>
+            </div>
+            <div class="col-2">
+                <img src="imagenes/galeria/pic5.jpg"
+                    alt="Asalto de la 3ra columna argentina a Curupaytí, de Cándido López. 1893. Museo Nacional de Bellas Artes"
+                    title="pic5" width="100%" onclick="myFunction(this);" />
+                <p>
+                    Curupaytí 1893
+                </p>
+            </div>
+            <div class="col-2">
+                <img src="imagenes/galeria/pic6.jpg"
+                    alt=" Asalto a la 4ta columna argentina a Curupaytí, de Cándido López. 1898. Museo Nacional de Bellas Artes"
+                    title="pic6" width="100%" onclick="myFunction(this);" />
+                <p>
+                    Curupaytí 1898
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <div id="container">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <img id="expandedImg" style="width:100%">
+        <div id="imgtext"></div>
+    </div>
+    <footer>
+        <p id="footer">
+            Más información <a
+                href="https://www.cultura.gob.ar/candido-lopez-entre-la-pintura-y-la-historia_3807/">aquí</a>
+        </p>
+    </footer>
+</body>
+
+
+</html>
